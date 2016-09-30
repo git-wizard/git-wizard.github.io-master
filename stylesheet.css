@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+@font-face {
+    font-family: roadrage;
+    src: url(Road_Rage.otf);
+}
+
+@font-face {
+    font-family: mountain;
+    src: url(beyond_the_mountains.ttf);
+}
+
+.title {
+    font-family: mountain;
+    font-size: 25px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 7px;
+    float: left;
+}
+
+#top {
+    width: auto;
+    height: 60px;
+    background-color: #333333;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-family: century gothic;
+    color: white;
+    font-size: 18px;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+}
+
+#menu {
+    float: right;
+    padding-top: 18px;
+    padding-right: 10%;
+}
+
+#menu li a:hover {
+    transition: all 200ms ease-in-out;
+    color: #6fc4ff;
+}
+
+.color-chng a {
+    padding-right: 50px;
+}
+
+.logoOne {
+    margin-left: 20%;
+    width: 1200px;
+    height: 1200px;
+}
+
+#first_top {
+    background-image: url('pictures/background.jpg');
+    width: 1920px;
+    height: 955px;
+}
